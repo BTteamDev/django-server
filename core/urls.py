@@ -21,5 +21,5 @@ from games.views import GameListCreate
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/games/', GameListCreate.as_view()), # Твой эндпоинт [cite: 698]
+    path('api/games/', GameListCreate.as_view()), # Эндпоинт [cite: 698]
 ]
