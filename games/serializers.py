@@ -5,4 +5,4 @@ from .models import Game
 class GameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Game
-        fields = ['id', 'itemName', 'price'] # Что именно переводим
+        fields = ['id', 'itemName', 'price']
